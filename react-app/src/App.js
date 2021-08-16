@@ -24,6 +24,7 @@ class App extends Component {
                 <Route path="/products" component={Products} />
                 <Route path="/about" component={About} />
                 <Route exact path="**" component={NotFound} />
+                123123
               </Switch>
             </Suspense>
           </main>
